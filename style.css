@@ -1,0 +1,365 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  background-color: #ffff;
+}
+h2{
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  /* padding: 40px 0; */
+ }
+#headings{
+  h2{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 60px 20px;
+    
+   }
+}
+#banner{
+  padding: 60px 0;
+  h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+  }
+  p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .img{
+    background-image: url(./c2-assets/hero-vegetables.png);
+    height: 830px;
+    background-position: center;
+  }
+}
+ #service{
+  h2{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    /* padding: 40px 0; */
+   }
+  .cards{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+    .card{
+      background-color: #EFEBE3;
+      color: black;
+      h2{
+        font-weight: 600;
+      }
+    }
+  }
+} 
+#pproduct{
+  background-color: #EFEBE3;
+  padding: 200px 0px;
+  h2{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: green;
+    /* padding: 40px 0; */
+   }
+  .allProduct{
+    display: flex;
+    flex-wrap: wrap;
+    .main{
+      margin-top: 60px;
+      border-radius: 8px;
+      h2{
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        color: #ffff;
+        padding: 30px 0px 20px 30px;
+      }
+      p{
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: aliceblue;
+        margin-left: 30px;
+      }
+      .img{
+        width: 100%;
+        height: 100%;
+        margin-left: 35%;
+      }
+      button{
+        margin-top: 20px;
+        a{
+          background-color: white;
+          padding: 10px 20px;
+          font-family: sans-serif;
+          font-size: large;
+          font-weight: 600;
+          color: black;
+          border-radius: 8px;
+          margin-left: 30px;
+        }
+        &:hover a{
+          background-color: green;
+          color: white;
+        }
+      }
+      width: 400px;
+      /* height: 400px; */
+      background-image: linear-gradient(to bottom right ,rgba(55, 185, 31, 1.00) 60%,white);
+    }
+    .subp{
+      /* width: 830px;
+      display: flex; */
+      background-color: bisque;
+      card2{
+        p{
+          color: black;
+        }
+        h2{
+          font-family: sans-serif;
+          font-size: 16px;
+          color: black;
+        }
+      }
+    }
+  }
+}
+/* Arrival & Offers section starts here */
+#ArrivalOff{
+  margin-bottom: 400px;
+  .ArrivalOff{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+    .bigsell{
+      background-color: #115414;
+      padding: 20PX;
+      width: 53%;
+      display: flex;
+      border-radius: 15PX;
+      .info{
+        width: 60%;
+        img{
+          margin-top: 20px;
+        }
+        button{
+          margin-top: 30px;
+          a{
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 15px 30px;
+            border-radius: 12px;
+            border: 2px solid #63B76D;
+          }
+          &:hover a{
+            background-color: #63B76D;
+            color: #EFEBE3;
+          }
+        }
+        h2{
+          margin-top: 30px;
+          font-family: sans-serif;
+          font-size: 24px;
+          color: white;
+          span{
+            font-weight: 800;
+          }
+        }
+      }
+      .imge{
+        margin-top: 20px;
+        width: 40%;
+      }
+    }
+    .smallsell{
+      background-color: #102861;
+      padding: 20PX;
+      width: 44%;
+      display: flex;
+      border-radius: 15PX;
+      .info{
+        width: 60%;
+        img{
+          margin-top: 20px;
+        }
+        button{
+          margin-top: 30px;
+          a{
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 15px 30px;
+            border-radius: 12px;
+            border: 2px solid #2A4D97;
+          }
+          &:hover a{
+            background-color: #2A4D97;
+            color: #EFEBE3;
+          }
+        }
+        h2{
+          margin-top: 30px;
+          font-family: sans-serif;
+          font-size: 24px;
+          color: white;
+          span{
+            font-weight: 800;
+          }
+        }
+      }
+      .imge{
+        margin-top: 20px;
+        width: 40%;
+      }
+    }
+  }
+}
+/* Arrival & Offers section ends here */
+/* good news section starts here */
+#goodNews{
+  position: absolute;
+  width: 85%;
+  margin: 60px 10%;
+  margin-top: -250px;
+  z-index: 11;
+  .goodNews{
+    border-radius: 20px;
+    /* width: 100%; */
+    align-items: center;
+    display: flex;
+    background-color: #EFEBE3;
+    padding: 90px 0;
+    .imge{
+      width: 50%;
+      img{
+        align-items: center;
+      }
+    }
+    .info{
+      h2{
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: black;
+      }
+      p{
+        margin-top: 10px;
+        color: black;
+
+      }
+      input{
+        margin-top: 30px;
+        background-color: aliceblue;
+      }
+      button{
+        margin-top: 40px;
+        a{
+          background-color: white;
+          padding: 10px 30px;
+          font-family: sans-serif;
+          font-size: 24;
+          font-weight: 600;
+          color: green;
+          border-radius: 8px;
+          
+        }
+        &:hover a{
+          background-color: green;
+          color: white;
+        }
+      }
+    }
+  }
+}
+/* good news section ends here */
+/* futter section starts here */
+#futter{
+  position: relative;
+  background-color: #115414;
+  padding: 180px 0px;
+  .futter{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    .bio{
+      width: 30%;
+      margin: 20px 40px;
+      p{
+        color: white;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 40px;
+      }
+      
+    }
+    .manu{
+      margin: 20px 40px;
+      ul li{
+        margin-top: 40px;
+        a{
+          font-size: 20px;
+          font-weight: 600;
+          padding: 20px 30px;
+          /* border: 2px solid #EFEBE3; */
+        }
+      }
+    }
+    .social{
+      p{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 100px 50px 0 0;
+      }
+      i{
+        font-size: 28px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+/* futter section ends here */
+ @media only screen and (max-width: 600px) { 
+  #service{
+    .cards{
+      display: block;
+      margin-left: 10% ;
+      .card{
+        display: block;
+      }
+    }
+  } 
+  #pproduct{
+    .main{
+      width: 100%;
+    }
+    .subp{
+      width: 100%;
+      grid-template-columns: auto auto;
+      flex-wrap: wrap;
+      
+    }
+  }
+  #ArrivalOff{
+    .ArrivalOff{
+      flex-direction: column;
+      .bigsell{
+        width: 100%;
+      }
+      .smallsell{
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  }
+} 

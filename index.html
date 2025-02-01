@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>natures platter</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="navbar bg-white font-sans">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul
+          tabindex="0"
+          class="menu menu-sm dropdown-content bg-neutral-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a>Item 1</a></li>
+          <li>
+            <a>Parent</a>
+            <ul class="p-2">
+              <li><a>Submenu 1</a></li>
+              <li><a>Submenu 2</a></li>
+            </ul>
+          </li>
+          <li><a>Item 3</a></li>
+        </ul>
+      </div>
+      <a class="btn btn-ghost img-l"><img src="./c2-assets/logo-header.png" alt=""></a>
+    </div>
+    <div class="navbar-center hidden lg:flex text-gray-900">
+      <ul class="menu menu-horizontal px-1 font-bold">
+        <li><a>Product</a></li>
+        <li><a>Services</a></li>
+        <li><a>Contact us</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <button class="btn btn-outline btn-success">Login</button>
+      <button class="btn btn-outline btn-success">Register</button>
+    </div>
+  </div>
+  <!-- banner section starts here -->
+   <div id="banner" class="text-center">
+    <h1>Freshness <span class="text-green-600">You Can <br>Count</span>On, Prices You’ll Love!</h1>
+    <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
+    <div class="img"></div>
+   </div>
+   <!-- banner section ends here -->
+    <!-- service section starts here -->
+    <section id="service">
+      <h2 class="text-green-600 ">Services</h2>
+      <div class="cards items-center-sm">
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="./c2-assets/service.png"
+              alt="Shoes"
+              class="rounded-full bg-white p-8" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">24/7 Services </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl">
+          <figure class="mt-10 px-10 pt-10">
+            <img
+              src="./c2-assets/delivery.png"
+              alt="Fast Delivery"
+              class="rounded-full bg-white p-8" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Fast Delivery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl ">
+          <figure class="mt-10 px-10 pt-10 ">
+            <img
+              src="./c2-assets/healthy.png"
+              alt="Shoes"
+              class="rounded-full bg-white p-8" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-black-600">Healthy Products</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- service section ends here -->
+    <!-- populer product section starts here-->
+     <section id="pproduct">
+      <h2>Popular Products</h2>
+      <div class="allProduct">
+        <div class="main">
+          <h2>30% off</h2>
+          <p>Discover a world of treats toys, and essential handpicked for</p>
+          <button><a href="#">Buy Now</a></button>
+          <div class="img">
+            <img src="./c2-assets/vegetable-offer.png" alt="">
+          </div>
+        </div>
+        <div class="subp">
+          <div class="flex items-center card1">
+            <img src="./c2-assets/onion.png" />
+            <div class="card2">
+              <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+              <h2>Onion 1 KG</h2>
+              <p>$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center card1">
+            <img src="./c2-assets/onion.png" />
+            <div class="card2">
+              <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+              <h2>Onion 1 KG</h2>
+              <p>$39.99</p>
+            </div>
+          </div>
+          <div class="flex items-center card1">
+            <img src="./c2-assets/onion.png" />
+            <div class="card2">
+              <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+              <h2>Onion 1 KG</h2>
+              <p>$39.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- populer products section ends here -->
+     <!-- Arrival & Offers section starts here -->
+    <section id="ArrivalOff">
+      <div id="headings" style="color: #179800;">
+        <h2>Arrival & Offers</h2>
+      </div>
+      <div class="ArrivalOff">
+        <div class="bigsell">
+          <div class="info">
+            <img src="./c2-assets/dawat-logo.png" alt="">
+            <button><a href="#">Cook Exotic Dishes</a></button>
+            <h2>UP to <span>20% OFF</span></h2>
+
+          </div>
+          <div class="imge">
+            <img src="./c2-assets/dawat-mock-up.png" alt="">
+          </div>
+        </div>
+        <div class="smallsell">
+          <div class="info">
+            <img src="./c2-assets/india-gate-logo.png" alt="">
+            <button><a href="#">Cook Exotic Dishes</a></button>
+            <h2>UP to <span>40% OFF</span></h2>
+
+          </div>
+          <div class="imge">
+            <img src="./c2-assets/india-gate-mock-up.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+      <!-- Arrival & Offers section ends here -->
+    <!-- Good news section starts here -->
+     <section id="goodNews">
+      <div class="goodNews">
+        <div class="imge"><img src="./c2-assets/vegetable-busket.png" alt=""></div>
+        <div class="info">
+          <h2>Get Grocery News!</h2>
+          <p>Exclusive training tips, ticks, product deals and more.</p>
+          <input
+          type="text"
+          placeholder="Type here"
+          class="input input-bordered input-md w-full max-w-xs" />
+          <button><a href="#">Subscribe</a></button>
+
+        </div>
+      </div>
+
+     </section>
+     <!-- Good news section ends here -->
+    <!-- futter section starts here -->
+     <section id="futter">
+      <div class="futter">
+        <div class="bio">
+          <img src="./c2-assets/logo-footer.png" alt="">
+          <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+        </div>
+        <div class="manu">
+          <ul>
+            <li><a href="#">Product</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="social">
+          <p>social Media</p><br>
+          <i class="fa-brands fa-facebook" style="color: #74C0FC;"></i><i class="fa-brands fa-youtube" style="color: #a20c01;"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram" style="color: #a20c01;"></i>
+        </div>
+      </div>
+
+     </section>
+     <!-- futter section ends here -->
+  
+</body>
+</html>
