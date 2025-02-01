@@ -131,17 +131,35 @@ h2{
       background-image: linear-gradient(to bottom right ,rgba(55, 185, 31, 1.00) 60%,white);
     }
     .subp{
-      /* width: 830px;
-      display: flex; */
-      background-color: bisque;
-      card2{
-        p{
-          color: black;
-        }
-        h2{
-          font-family: sans-serif;
-          font-size: 16px;
-          color: black;
+      .cards{
+        margin-top: 90px;
+        display: grid;
+        grid-column: 3;
+        grid-template-columns: auto auto auto ;
+        gap: 50px 10px;
+        padding: 10px;
+        .card1{
+          display: flex;
+          background-color: aliceblue;
+          border-radius: 15px;
+          /* width: 30%; */
+          .imge{
+            width: 30%;
+            margin: 8px;
+            img{
+              border-radius: 16px;
+              background-color: antiquewhite;
+            }
+          }
+          .price{
+            padding:0 20px;
+            color: black;
+            h3{
+              font-family: sans-serif;
+              font-size: 16px;
+              font-weight: 600;
+            }
+          }
         }
       }
     }
@@ -356,11 +374,13 @@ h2{
   #pproduct{
     .main{
       width: 100%;
+      margin-left: 10%;
     }
     .subp{
       width: 100%;
-      grid-template-columns: auto auto;
-      flex-wrap: wrap;
+      .cards{
+        grid-template-columns: auto auto !important;
+      }
       
     }
   }
@@ -394,6 +414,9 @@ h2{
       margin-top: 350px;
       .bio{
         width: 100%;
+        p{
+          padding: 0 30px;
+        }
         img{
           margin-left: 30%
           
