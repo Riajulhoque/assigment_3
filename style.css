@@ -12,6 +12,20 @@ h2{
   font-weight: 600;
   /* padding: 40px 0; */
  }
+ .navbar-end{
+  button{
+    padding: 10px 30px;
+    border: 1px solid #115414;
+    margin-left: 20px;
+  }
+  a{
+    i{
+      font-size: 20px;
+      color: black;
+      margin-right: 10px;
+    }
+  }
+ }
 #headings{
   h2{
     font-family: sans-serif;

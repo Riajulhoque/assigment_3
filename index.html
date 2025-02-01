@@ -12,7 +12,8 @@
 </head>
 <body>
   <div class="navbar bg-white font-sans">
-    <div class="navbar-start">
+    <div class="navbar justify-between">
+      <a class="btn btn-ghost img-l"><img src="./c2-assets/logo-header.png" alt=""></a>
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
           <svg
@@ -30,19 +31,13 @@
         </div>
         <ul
           tabindex="0"
-          class="menu menu-sm dropdown-content bg-neutral-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
-          <li><a>Item 1</a></li>
-          <li>
-            <a>Parent</a>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </li>
-          <li><a>Item 3</a></li>
+          class="menu menu-sm dropdown-content bg-black-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a>Product</a></li>
+          <li><a>Services</a></li>
+          <li><a>Contact us</a></li>
         </ul>
       </div>
-      <a class="btn btn-ghost img-l"><img src="./c2-assets/logo-header.png" alt=""></a>
+      
     </div>
     <div class="navbar-center hidden lg:flex text-gray-900">
       <ul class="menu menu-horizontal px-1 font-bold">
@@ -51,7 +46,9 @@
         <li><a>Contact us</a></li>
       </ul>
     </div>
-    <div class="navbar-end">
+    <div class="navbar-end hidden lg:flex">
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
       <button class="btn btn-outline btn-success">Login</button>
       <button class="btn btn-outline btn-success">Register</button>
     </div>
